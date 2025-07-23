@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Resume</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 20px;
+      background-color: #ffffff;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: rgb(236, 234, 234);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.45);
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+    }
+    .info {
+      flex: 1;
+    }
+    .profile-pic {
+      width: 140px;
+      height: auto;
+      object-fit: cover;
+      background-color: #ffffff;
+      border-radius: 60%;
+    }
+    h1, h2 {
+      color: #000000;
+    }
+    hr {
+      margin: 10px 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .section {
+      margin-bottom: px;
+    }
+    .download-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px;
+      background-color: #000000;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .download-btn:hover {
+      background-color: #5a5858;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+   <div class="header">
+      <div class="info">
+        <h1>Christian R. Villardo</h1>
+        <p><em>Aspiring Graphic Designer</em></p>
+      </div>
+      <img src="image/pic.png" alt="My Photo" class="profile-pic">
+    </div>
+    
+    <hr>
+
+    <div class="section">
+      <h2>About Me</h2>
+      <p>I am Christian R. Villardo an aspiring graphic designer with a passion for visual and creative design. I enjoy turning ideas into eye-catching visuals and continuously learning new tools and techniques to improve my craft. My goal is to create designs that not only look good but also communicate clearly and effectively.</p>
+    </div>
+    
+    <hr>
+    
+    <div class="section">
+      <h2>Education</h2>
+      <ul>
+        <li>I graduated with an academic award at Cristo Rey High School (2022-2023)</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Basic HTML & CSS</li>
+        <li>Graphic Design</li>
+        <li>Teamwork</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Vape Inventory System</strong> – A Web Inventory System that helps you track and manage stocks.</li>
+        <li><strong>Diary Mobile App</strong> – A basic Personal Mobile Application that let you write your daily thoughts and memories anytime, anywhere.</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <div class="section">
+      <h2>Contact Me</h2>
+      <p>Email: chrsrivera15@gmail.com</p>
+      <p>Phone: 0915-295-5202</p>
+    </div>
+
+    <div class="section" style="text-align: center;">
+      <a href="files/resume.docx" download class="download-btn">Download Resume</a>
+    </div>
+  </div>
+
+</body>
+</html>
